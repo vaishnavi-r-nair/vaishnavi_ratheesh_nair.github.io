@@ -1,0 +1,18 @@
+:root{--bg:#fbfbfd;--card:#ffffff;--accent:#0f4c81;--muted:#666;}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;background:var(--bg);color:#111;line-height:1.5}
+.container{max-width:880px;margin:0 auto;padding:24px}
+.hero{background:linear-gradient(180deg, #ffffff 0%, #f6f9ff 100%);padding:48px 0;text-align:center}
+.avatar{width:120px;height:120px;border-radius:12px;object-fit:cover;display:block;margin:0 auto 12px}
+h1{margin:0;font-size:28px}
+.subtitle{margin:6px 0 12px;color:var(--muted)}
+.btn{display:inline-block;padding:10px 14px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;margin-right:8px}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+main{padding:24px 0}
+section{margin-bottom:28px;background:var(--card);border-radius:10px;padding:18px;box-shadow:0 6px 18px rgba(16,24,40,0.06)}
+.projects{display:grid;grid-template-columns:1fr;gap:12px}
+.project h3{margin:0 0 8px}
+.skills{list-style:none;padding:0;margin:0;display:flex;gap:10px;flex-wrap:wrap}
+.skills li{background:#eef5ff;padding:8px 10px;border-radius:8px}
+.footer{text-align:center;padding:18px;color:var(--muted);font-size:14px}
+@media(min-width:760px){.projects{grid-template-columns:1fr 1fr}}
